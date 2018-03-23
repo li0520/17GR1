@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+		text-decoration: none;
+}
+.warp{
+	text-align: center;
+	margin: 0 auto;
+	
+}
+nav li {
+	display: inline-block;
+	height: 200px;
+	line-height: 100px;
+	width: 200px;
+	background: yellow;
+	border-radius: 50%;
+	margin-left: -60px;
+	margin-top: 50px;
+	border: 10px solid chartreuse;
+		
+}
+@font-face {
+	font-family:'ligatureSymbols';
+	src: url(../ureSymbolsLigat.svg);
+	src: url(../LigatureSymbols.eot);
+	src: url(../LigatureSymbols.ttf);
+	src: url(../LigatureSymbols.woff);
+	}
+nav ul li span:first-of-type{
+	font-family: 'ligatureSymbols';
+	display: block;
+	height: 100px;
+	width: 200px;
+}
+/*nav ul li span:first-of-type:before{
+	content: 'home';
+}*/
+nav ul li:nth-last-of-type(1):hover{
+	color: greenyellow;
+	background: green;
+	border-color: #8B008B;
+	transform: scale(1.1);
+	
+}
+
+nav ul li:nth-last-of-type(2):hover{
+	color: greenyellow;
+	background:blue;
+	border-color: red;
+	transform: scale(1.1);
+	
+}
+nav ul li:nth-last-of-type(3):hover{
+	color: greenyellow;
+	background:chartreuse;
+	border-color: cyan;
+	transform: scale(1.1);
+	
+}
+nav ul li:nth-last-of-type(4):hover{
+	color: greenyellow;
+	background:firebrick;
+	border-color: coral;
+	transform: scale(1.1);
+	
+}
+nav ul li:nth-last-of-type(5):hover{
+	color: greenyellow;
+	background:darkmagenta;
+	border-color: #008000;
+	transform: scale(1.1);
+	
+}
+
+
+
+
+
+
+
+
+

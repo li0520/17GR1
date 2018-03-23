@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: beige;
+}
+.div1{
+	width: 100%;
+	height: 650px;
+	background-color: bisque;
+	/*border: red solid 1px;*/
+	-webkit-animation:tian 10s ease infinite alternate
+}
+a{
+	background:url(../img/balloon.png);
+	height: 227px;
+	width: 157px;
+	position: absolute;
+	/*display: block;*/
+	top: 20px;
+	left: -100px;
+	-webkit-animation: qiqiu 10s ease infinite alternate;
+}
+@-webkit-keyframes tian{
+	0%{
+		background-color: paleturquoise;
+	}
+	50%{
+		background-color:mediumorchid;
+	}
+	100%{
+		background-color:dimgrey;
+	}
+}
+@-webkit-keyframes qiqiu{
+	0%{
+		/*transform: translateX(-200px);*/
+		left: 0%;
+	}
+	25%{
+		left: 20%;
+		-webkit-transform: rotate(30deg);
+	}
+	50%{
+		left: 50%;
+		-webkit-transform: rotate(60deg);
+	}
+	75%{
+		left: 70%;
+		-webkit-transform: rotate(30deg);
+	}
+	100%{
+		left: 100%;
+		-webkit-transform: rotate(0deg);
+	}
+}
+.ground{
+	position: absolute;
+}
+.font{
+	height: 301px;
+	width: 100%;
+	background: url(../img/groundFront.png) repeat-x center;
+	top: 350px;
+	z-index: 9;
+	
+}
+.mid{
+	height: 301px;
+	width: 100%;
+	background: url(../img/groundMid.png) repeat-x ;
+	top: 351px;
+	z-index: 8;
+}
+.back{
+	height: 301px;
+	width: 100%;
+	background: url(../img/groundBack.png) repeat-x ;
+	top: 350px;
+	z-index: 7;
+}
+.qq{
+	position: absolute;
+	height: 285px;
+	width: 340px;
+	background: url(../img/Planetarium.png) no-repeat;
+	z-index: 7;
+	left: 900px;
+	bottom: 200px;
+	}
+.ww{
+	position: absolute;
+	height: 285px;
+	width: 340px;
+	background: url(../img/Glockenspiel.png) no-repeat;
+	z-index: 7;
+	left: 600px;
+	bottom: 270px;
+}
+.EE{
+	position: absolute;
+	height: 285px;
+	width: 500px;
+	background: url(../img/dowEventCenter.png) no-repeat;
+	z-index: 7;
+	left: 50px;
+	bottom: 255px;
+}
+.rr{
+	position: absolute;
+	height: 285px;
+	width: 500px;
+	background: url(../img/beans.png) no-repeat;
+	z-index: 6;
+	left: 810px;
+	bottom: 255px;
+}
+.tt{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	background: url(../img/friendshipShell.png) no-repeat;
+	z-index:8;
+	left: 250px;
+	bottom: 230px;
+}
+.yy{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	background: url(../img/cloudMedium.png) no-repeat;
+	z-index:8;
+	left: 250px;
+	bottom: 400px;
+}
+.uu{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	background: url(../img/cloudMedium.png) no-repeat;
+	z-index:8;
+	left: 600px;
+	bottom: 380px;
+}
+.ii{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	background: url(../img/cloudSmall.png) no-repeat;
+	z-index:8;
+	left: 750px;
+	bottom: 330px;
+}
+.oo{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	background: url(../img/cloudSmall.png) no-repeat;
+	z-index:8;
+	left: 950px;
+	bottom: 330px;
+}
+.pp{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	background: url(../img/cloudSmall.png) no-repeat;
+	z-index:8;
+	left: 1050px;
+	bottom: 330px;
+}
+.aa{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	background: url(../img/cloudSmall.png) no-repeat;
+	z-index:8;
+	left: 1200px;
+	bottom: 330px;
+}
+.ss{
+	position: absolute;
+	height: 400px;
+	width: 500px;
+	background: url(../img/skyline.png) no-repeat;
+	z-index:6;
+	left: 1200px;
+	bottom: 50px;
+}

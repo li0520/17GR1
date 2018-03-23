@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			var s=1;
+			var x=11;
+			function lunbo(){
+				if(s>3 || s<1){
+					s=1;
+				}
+				if(x>18 || x<11){
+					x=11;
+				}
+				var img=document.getElementById("lunbo");
+				img.src="img/"+s+".png";
+				s++;
+			
+			var img1=document.getElementById("lunbo2");
+				img1.src="img/"+x+".jpg";
+				x++;
+			}
+			setInterval(lunbo,2000);
+			
+		</script>
+		
+		<style type="text/css">
+			.zon{
+				height: 2500px;
+			}
+			a{
+				text-decoration: none;
+				margin-right: 20px;
+				color: grey;
+				
+			}
+			a:hover{
+				color: red;
+				
+			}
+			html,body{
+				height:100% ;
+			}
+			ul {
+				list-style-type:none ;
+				
+			}
+			#div1{
+				background: rgba(0,0,0,0.9);
+				width: 100%;
+			}
+			
+			#div1,#div2,#div2 li,#div3{
+				
+				display: inline-block;
+				
+			}
+			#div4{
+				position: relative;
+				left: 100px;
+			}
+			#div5{
+				position: relative;
+				left: 850px;
+				bottom: 700px;
+			}
+			#div6{
+				position: relative;
+				left: 800px;
+				bottom: 700px;
+			}
+			#div7{
+				position: relative;
+				left: 100px;
+				bottom: 650px;
+			}
+			#div8{
+				position: relative;
+				left: 850px;
+				bottom: 1005px;
+			}
+			#div9 {
+				position: relative;
+				width: 1350px;
+				height: 200px;
+				background-color: gainsboro;
+				bottom: 1000px;
+				left: 100px;
+			}
+			#nn{
+				position: relative;
+				left: 150px;
+				
+			}
+			#tt{
+				position: relative;
+				left: 550px;
+				bottom: 140px;
+			}
+			#hh{
+				position: relative;
+				left: 980px;
+				bottom: 280px;
+			}
+			#div10{
+				position: relative;
+				width: 100%;
+				height: 500px;
+				background-color: black;
+				bottom: 990px;
+				
+			
+			}
+			#div10 div{
+				display: inline-block;
+				
+				vertical-align: top;
+				margin-left: 60px;
+				margin-top: 100px;
+			}
+			#div10 p{
+				color: white;
+				position: relative;
+				left: 40px;
+			}
+			
+		</style>
+		
+	</head>
+	<body onload="lunbo()">
+		<div >
+			<div class="zon" >
+				<div id="div1">
+					<img src="img/2018-03-13_221846.png"/>
+				
+				<div id="div2">
+					<ul>
+						<li><a href="">消费级产品 </a></li>
+						<li><a href="">专业级产品 </a></li>
+						<li><a href="">行业应用 </a></li>
+						<li><a href="">系统模块 </a></li>
+						<li><a href="">探索精彩</a></li>
+						<li><a href="">服务与支持</a></li>
+				</ul>
+				</div>
+				<div id="div3">
+					<a href="">登录</a>
+					<a href="">注册</a>
+				</div>
+				</div>
+				<section style="vertical-align: middle;">
+					<img src="img/1.png" height="700px" id="lunbo"/>
+				</section>	
+				<div>
+					<div id="div4">
+						<img src="img/11.jpg" width="700px" height="700px" id="lunbo2"/>
+					</div>
+					<div id="div5">
+						<img src="img/21.jpg"width="550px" height="300px" />
+					</div>
+					<div id="div6">
+						<img src="img/22.jpg"width="600px" height="350px" />
+					</div>
+					
+					<div id="div7">
+						<img src="img/23.png"width="700px" height="350px" />
+					</div>
+					<div id="div8">
+						<img src="img/24.jpg"width="600px" height="350px" />
+					</div>
+					
+					<div id="div9">
+						<ul>
+						<li id="nn"><a href=""><h3>购买渠道</h3><p>查找可靠的购买渠道</p> </a></li>
+						<li id="tt"><a href=""><h3>服务与支持</h3><p>我们很高兴为你提供帮助</p> </a></li>
+						<li id="hh"><a href=""><h3>安全飞行</h3><p>了解最新安全及飞行信息</p> </a></li>
+						</ul>
+					</div>
+					<div id="div10">
+					<div id="div11">
+						<p>热门产品分类</p>
+						<ul>
+							
+							<li><a href="">消费级</a> </li>
+							<li><a href="">专业级</a> </li>
+							<li><a href="">行业级</a> </li>
+							<li><a href="">系统模块</a> </li>
+						</ul>
+					</div>
+					<div id="div12">
+						<p>购买渠道</p>
+						<ul>
+							
+							<li><a href="">官方商城</a> </li>
+							<li><a href="">官方直营店</a> </li>
+							<li><a href="">线下零售店</a> </li>
+							<li><a href="">成为授权经销商</a> </li>
+						</ul>
+					</div>
+					<div id="div13">
+						<p>帮助与支持</p>
+						<ul>
+							
+							<li><a href="">安全飞行指引</a> </li>
+							<li><a href="">产品支持</a> </li>
+							<li><a href="">维修中心</a> </li>
+							<li><a href="">购买指南</a> </li>
+							<li><a href="">售后服务政策</a> </li>
+						</ul>
+					</div>
+					<div id="div14">
+						<p>探索精彩大疆</p>
+						<ul>
+							
+							<li><a href="">新闻中心</a> </li>
+							<li><a href="">精彩视频</a> </li>
+							<li><a href="">精彩活动</a> </li>
+							<li><a href="">大疆公益</a> </li>
+						</ul>
+					</div>
+					<div id="div15 	">
+						<p>社区</p>
+						<ul>
+							<li><a href="">天空之城</a> </li>
+							<li><a href="">大疆社区</a> </li>
+							<li><a href="">开发者</a> </li>
+						</ul>
+					</div>
+					<div id="div15 	">
+						<p>订阅我们</p>
+						<ul>
+							<li><a href="">第一时间获得大疆的最新动态</a> </li>
+							<input type="email" placeholder="请输入你的邮箱地址" />
+							
+						</ul>
+					</div>
+					</div>
+					
+				</div>
+				
+			</div>	
+		</div>	
+</body>
+</html>
