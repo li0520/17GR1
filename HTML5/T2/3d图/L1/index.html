@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			.*{
+				padding: 0;
+				margin: 0;
+			}
+			.div1{
+				width: 900px;
+				height: 800px;
+				border: 1px solid red;
+				margin: 0 auto;
+				perspective: 1200px;
+				
+			}
+			.div2{
+				width: 300px;
+				height: 400px;
+				margin: 200px auto;
+				-webkit-perspective: 2000px;
+				-webkit-transform-style: preserve-3d;
+			}
+			img{
+				box-shadow: -6px 9px 9px black;
+				-webkit-transition: all 1s linear;
+				-webkit-transform: rotateX(58deg) rotateY(5deg) rotateZ(-40deg);
+			}
+			.div2 img:hover{
+				-webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+				box-shadow: -100px 100px 10px white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div1">
+			<div class="div2">
+				<img src="img/QQ图片20180325202839.jpg" width="300px" height="400px" />
+				
+			</div>
+		</div>
+		
+	</body>
+</html>
