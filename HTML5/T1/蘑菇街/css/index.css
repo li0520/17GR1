@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	height: 100%;
+}
+.wrap{
+	margin: 0 auto;
+	width: 1200px;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+}
+.wrap .temp a{
+	margin-left: 25px;
+}
+.top2 .top2-r-down a{
+	margin-left: 25px;
+}
+ul,ol{
+	list-style: none;
+}
+.r{
+	float: right;
+}
+.l{
+	float: left;
+}
+
+.top{
+	width: 100%;
+	height: 35px;
+	background-color: aquamarine;
+}
+.temp{
+	line-height: 35px;
+}
+.temp a{
+	margin-left: 12px;
+}
+.top2{
+	height: 180px;
+}
+.top2-l,.top2-r{
+	margin-top: 50px;
+}
+.top2-r-top{
+	position: relative;
+}
+.top2-r-top input:nth-of-type(1){
+	width: 150px;
+	height: 36px;
+	border: solid 2px crimson;
+	border-right: 0px;
+	line-height: 38px;
+}
+.top2-r-top form span{
+	display: inline-block;
+	height: 0px;
+	width: 0px;
+	border: 4px solid;
+	border-color:black transparent transparent transparent;
+	position: relative;
+	left: -35px;
+}
+.top2-r-top input:nth-of-type(2){
+	width: 470px;
+	height: 36px;
+	border: solid 2px crimson;
+	border-left: 0px;
+	margin-left: -20px;
+	line-height: 36px;
+}
+.top2-r-top input:nth-of-type(3){
+	width: 65px;
+	height: 36px;
+	border: solid 0px ;
+	background: crimson;
+	margin-left: -5px;
+	line-height: 35px;
+}
+.top3{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: solid 3px crimson;
+}
+.top3 ul,.top3 ul li{
+	display: inline-block;
+}
+.top3 ul li{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 141px;
+}
+.top3 ul li a{
+	font-weight:700 ;
+	
+}
+.top3 ul li:nth-of-type(1){
+	width: 257px;
+	background-color: crimson;
+	font-size: 20px;
+}
+.top4{
+	background-color: #ffe0ed;
+	height: 450px;
+}
+.top4-l{
+	background-color:white;
+	width: 256px;
+}
+.top4-l li{
+	height: 50px;
+	width: 256px;
+	text-align: left;
+	padding: 5px;
+	box-sizing: border-box;
+	
+}
+.top4-l li a{
+	display: inline-block;
+	height: 50px;
+	margin-left: 5px;
+}
+.top4-sec{
+	position: absolute;
+	left: 425px;
+	width: 400px;
+	height: 400px;
+	background-color: aliceblue;
+	top: 260px;
+	z-index: 99;
+}
+.carousel{
+	width: 792px;
+	height: 300px;
+}
+
+
