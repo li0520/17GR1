@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	height: 100%;
+}
+.wrap{
+	margin: 0 auto;
+	width: 1200px;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+}
+.top{
+	width: 100%;
+	height: 35px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid  gainsboro;
+}
+.top1{
+	width: 100%;
+	height: 90px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid   gainsboro;
+}
+ul,ol{
+	list-style: none;
+}
+.r{
+	float: right;
+}
+.l{
+	float: left;
+}
+.top1 img{
+	margin-top: 20px;
+	
+}
+#home{
+	width:1200px ;
+	height: 550px;
+	border: solid 1px red;
+	background-color:  #f2f2f2;
+	
+}
+#ios{
+	width:1200px ;
+	height: 550px;
+	border: solid 1px red;
+	background-color:  #f2f2f2;
+}
+#qq{
+	width:1200px ;
+	height: 550px;
+	border: solid 1px red;
+	background-color:  #f2f2f2;
+}
+.jie{
+	width: 1200px;
+	height: 50px;
+	border-bottom: 1px solid   gainsboro;
+}
+.jie-l{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.jie-l li{
+	display:inline-block;
+	list-style: none;
+	margin-left: 150px;
+}
+
+.jie-r{
+	margin-right: 40px;
+	margin-top: 20px;
+}
+.jie-r li{
+	display:inline-block;
+	list-style: none;
+	margin-left: 70px;
+}
+.hao{
+	width: 1200px;
+	height: 80px;
+	border-bottom: 1px solid   gainsboro;
+}
+.hao-l{
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.hao-l li{
+	display:inline-block;
+	list-style: none;
+	margin-left: 30px;
+}
+.hao-r{
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.hao-r li{
+	display:inline-block;
+	list-style: none;
+	margin-left: 70px;
+}
+.xin{
+	width: 1200px;
+	height: 120px;
+	border-bottom: 1px solid   gainsboro;
+}
+.xin-l{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.xin-l img{
+	margin-left:30px;
+	margin-top: 30px;
+}
+.xin-l li{
+	display:inline-block;
+	list-style: none;
+	margin-left: 5px;
+}
+.xin-r{
+	margin-right: 40px;
+	margin-top: 20px;
+}
+.xin-r li{
+	display:inline-block;
+	list-style: none;
+	margin-left: 70px;
+}
+.xin-r #fang span{
+	border: solid 1px black;
+}
+
+.jiao{
+	width: 100%;
+	height: 200px;
+}
+.an li{
+	margin-left: 500px;
+	margin-top: 30px;
+	list-style: none;
+	
+}
+.huang img{
+	position: relative;
+	left: 550px;
+}
+ 

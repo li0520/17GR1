@@ -36,7 +36,7 @@ yuE float default 0
 
 
 --三、	修改号码编号为1，用户编号为1的余额增加100（10分）
---update yigou set yuE=yuE+100 where haomaid=1and yonghuid=1
+--update yigou set yuE=yuE+100 where haomaid=1 and yonghuid=1
 
 
 --四、	在已购号码表中删除号码状态为已注销的数据（10分）
